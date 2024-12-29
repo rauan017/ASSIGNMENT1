@@ -11,7 +11,7 @@ public class Main {
 
             String line;
 
-            // Read students
+            
             while ((line = studentReader.readLine()) != null) {
                 String[] parts = line.split(",");
                 if (parts.length != 5) {
@@ -32,7 +32,6 @@ public class Main {
                 }
             }
 
-            // Read teachers
             while ((line = teacherReader.readLine()) != null) {
                 String[] parts = line.split(",");
                 if (parts.length != 7) {
