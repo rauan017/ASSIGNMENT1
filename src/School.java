@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
 public class School {
-    private ArrayList<Student> students;
-    private ArrayList<Teacher> teachers;
+    public ArrayList<Student> students;
+    public ArrayList<Teacher> teachers;
 
     public School() {
         this.students = new ArrayList<>();
